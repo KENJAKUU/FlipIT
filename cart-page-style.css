@@ -1,0 +1,190 @@
+:root {
+    --primary-color: #0E0E0E;
+    --secondary-color: #576AE2;
+    --primary-text-color: #F2F0F3;
+    --bs-link-color: var(--primary-text-color) !important;
+    --bs-link-hover-color: #adb4c7 !important;
+    --bg-dark: #0E0E0E;
+
+  
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.roboto-mono {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.montserrat-extra {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+}
+
+.orbitron {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 800;
+}
+
+
+.primarycolor {
+    background: var(--primary-color);
+}
+
+.textprimary {
+    color: var(--primary-text-color);
+}
+
+body{
+    background-color: black;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*navbar*/
+
+.navbar-toggler {
+  border: 0!important;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active{
+  outline: none !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
+.navbar-toggler span{
+  color: white;
+  font-size: 1.5rem;
+ 
+}
+
+.nav-item a:hover {
+  color: rgba(255, 255, 255, 0.444);
+}
+
+.nav-item a {
+  color: white;
+  font-size: 2rem;
+  padding: 2rem ;
+  
+  
+}
+
+.nav-item {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  
+  
+}
+
+.navbar-nav {
+  height: 100vh;
+}
+
+.navbar-toggler:focus{
+  transition: all 3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+/* cart */
+
+.cart-item-image{
+  background-image: url('gallery-photo-1.png');
+  object-fit: contain;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* nav bar for big screens */
+
+@media (min-width: 992px) {
+  .nav-item a {
+    color: white;
+    font-size: 0.7rem;
+    height: fit-content;
+    padding: 0.5rem;
+  
+  
+  }
+
+  .nav-item{
+    height: fit-content;
+  }
+
+  .navbar-nav {
+    height: fit-content;
+  }
+  
+
+}
+
+
+/* hero section*/
+
+input[type="text"]{
+
+  background-color : var(--primary-color); 
+
+}
+
+input[type="text"]:focus{
+
+  background-color : var(--primary-color); 
+
+}
+
+.form-label {
+  color: var(--primary-text-color);
+}
+
+.modal-blur{
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.modal-custom-background {
+ background-color: #0e0e0ef6!important;
+ backdrop-filter: blur(40px);
+ -webkit-backdrop-filter: blur(40px);
+  
+  
+
+}
+.modal {
+  color: #ffffff!important;
+ 
+}
+
+.modal-header{
+  outline: none !important;
+  box-shadow: none !important;
+  border: 0 !important;
+
+}
+
