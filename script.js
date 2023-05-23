@@ -82,7 +82,7 @@ function postOrder() {
     var orderOutput = "**Order:** " + videoChoice + " flipbook" + "\n**Student no:** " + studentNo + "\n**Outlook:** " + outlook + "\n**Section:** " +  section + "\n**Price:** " + orderPrice + "\n**Frames:** " + orderduration + "\n**Payment Method:** " + paymentmethod + "\n**Phone Number:** " + userNumber
 
   }
-  const webhook = "https://discord.com/api/webhooks/1110210817590308934/e4u_bt8ZOmK82u3_zSvCH6hgWHj41KN_JkqKGbLgKouDEha1g8peIW-B1PiSFSX_jHxc"
+  const webhook = "https://discord.com/api/webhooks/1109001738591141968/igZBaXdbsgWJSvS1eIRp729b-n1RMQ_6HlO-fGKZIeaByM2QM2XBb298qN7QQNQBLz4g"
 
   const request = new XMLHttpRequest();
     request.open("POST", webhook);
