@@ -50,6 +50,7 @@ body{
     color: var(--primary-text-color);
     background: var(--primary-color);
     min-height:100vh;
+    background-color: #000000;
 }
 
 .intro-background{
@@ -104,7 +105,7 @@ body{
 }
 
 .nav-item {
-  height: 200px;
+  height: 150px;
   display: flex;
   align-items: center;
   
@@ -248,12 +249,12 @@ body{
 
 .order-image{
   background: url(gallery-photo-1.png);
-
+  height: 250px;
   object-fit: contain;
   background-size: cover;
   background-position: center;
   border-radius: 20px 20px 0px 0px;
-  height: 420px;
+  
 }
 
 
@@ -320,8 +321,10 @@ body{
   }
   .order-image{
     border-radius: 20px 0px 0px 20px;
+    height: inherit;
     
   }
+
   
   
 
