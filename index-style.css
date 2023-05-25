@@ -38,7 +38,7 @@
 
 body{
     background: var(--primary-color);
-    background: linear-gradient(190deg, rgb(3, 10, 10) 0%, #0a0518 6%, rgba(47, 24, 60, 1) 16%, rgba(25, 27, 65, 1) 35%, rgba(32, 18, 29, 1) 55%, rgb(14, 9, 47) 75%, rgba(19, 36, 49, 1) 100%);
+    background: linear-gradient(190deg, rgb(3, 10, 10) 0%, #0a0518 6%, rgba(47, 24, 60, 1) 16%, rgba(25, 27, 65, 1) 35%, rgba(32, 18, 29, 1) 55%, rgb(34, 9, 47) 75%, rgba(19, 36, 49, 1) 100%);
 }
 
 .hero {
@@ -63,7 +63,7 @@ body{
 }
 
 .low-op-bg{
-  background-color: #0e0e0ecb;
+  background-color: #000000ab;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   
@@ -80,10 +80,12 @@ body{
   border: 0!important;
 }
 .navbar-toggler:focus,
-.navbar-toggler:active{
+.navbar-toggler:active
+{
   outline: none !important;
   box-shadow: none !important;
   border: 0 !important;
+  
 }
 
 .navbar-toggler span{
@@ -146,13 +148,13 @@ body{
 /* price and description*/
 
 .price-container{
-  border-radius: 1rem 1rem 0rem 0rem;
+  border-radius: 12px 12px 0rem 0rem;
   background: linear-gradient(155.67deg, #ad25d3 0%, #fb77ae 100%);
 
 }
 
 .description-container{
-  border-radius: 0rem 1rem 1rem 0rem;
+  border-radius: 0rem 12px 12px 0rem;
   
 
   
@@ -171,11 +173,13 @@ body{
 .masonry-container {
     column-count: 3;
     column-gap: 0.6rem;
+    
   }
   
   .masonry-item {
     margin-bottom: 0.6rem;
     break-inside: avoid;
+    
    
   }
   
@@ -183,7 +187,8 @@ body{
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 10px;
+    border-radius: 12px;
+  
   }
 
   .gridbackground {
@@ -253,7 +258,7 @@ body{
   object-fit: contain;
   background-size: cover;
   background-position: center;
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 12px 12px 0px 0px;
   
 }
 
@@ -273,10 +278,10 @@ body{
 @media (min-width: 768px) {
  
   .price-container{
-    border-radius: 1rem 0rem 0rem 1rem;
+    border-radius: 12px 0rem 0rem 12px;
   }
   .description-container{
-    border-radius: 0rem 1rem 1rem 0rem;
+    border-radius: 0rem 12px 1rem 12px;
   }
   .order-option-container{
     padding: 0rem!important;
@@ -293,7 +298,7 @@ body{
 
 @media screen and (min-width: 575px)  {
   .order-container, .video-container{
-    border-radius: 1.5rem;
+    border-radius: 12px;
   }
   
    
@@ -320,7 +325,7 @@ body{
     height: fit-content;
   }
   .order-image{
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 6px 0px 0px 6px;
     height: inherit;
     
   }
